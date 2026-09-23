@@ -1,0 +1,38 @@
+nav {
+    background-color: #333;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav li {
+    margin-right: 20px;
+}
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+}
+nav a:hover {
+    background-color: #575757;
+}
+nav a.active {
+    background-color: #0457aa;
+    font-weight: bold;
+}
+body {
+    background-color: beige;
+}
+h1 {
+    color: #0457aa;
+}
+img {
+    border-radius: 12%;
+    border: 5px solid black;
+    width: 700px;
+    height: 400px;
+    float: right;
+}
